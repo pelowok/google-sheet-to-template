@@ -6,9 +6,8 @@ function onOpen() {
 }
 
 function AutofillDocFromTemplate(){
-  //var templateId = "1d9lAkpYnyt6sIP2uewt_KVqwpoklylOxxXe0ERmZNDo"; // this is the template doc file id. You can find this in the URL of the google document template. For example, if your URL Looks like this: https://docs.google.com/document/d/1SDTSW2JCItWMGkA8cDZGwZdAQa13sSpiYhiH-Kla6VA/edit, THEN the ID would be 1SDTSW2JCItWMKkA8cDZGwZdAQa13sSpiYhiH-Kla6VA
-  var templateId = "1d9lAkpYnyt6sIP2uewt_KVqwpoklylOxxXe0ERmZNDo";
-  var mainFolderId = "0B1S8sXGxQgoXMlhycUpKN1JmR00"; // folder id of main folder
+  var templateId = "abc123efg456"; // this is the template doc file id. You can find this in the URL of the google document template. For example, if your URL Looks like this: https://docs.google.com/document/d/1SDTSW2JCItWMGkA8cDZGwZdAQa13sSpiYhiH-Kla6VA/edit, THEN the ID would be 1SDTSW2JCItWMKkA8cDZGwZdAQa13sSpiYhiH-Kla6VA
+  var mainFolderId = "abc123efg456"; // folder id of main folder
   
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getActiveSheet();
